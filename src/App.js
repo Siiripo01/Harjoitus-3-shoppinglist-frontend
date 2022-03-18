@@ -61,6 +61,7 @@ function App() {
 
   return (
     <div className='container'>
+      <h3>Shopping list</h3>
       <form onSubmit={save}>
         <label>New item</label>
         <input value={item} placeholder='type description' onChange={e => setItem(e.target.value)}></input>
